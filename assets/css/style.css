@@ -1,10 +1,25 @@
+:root {
+    --green: darkseagreen;
+    --pink: orchid;
+    --darkpink: darkmagenta;
+    --white: #fff;
+    --darkgreen: rgb(62, 128, 0);
+} 
+
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: darkseagreen;
+    background-color: var(--green);
     padding: 1%;
-    color: #fff;
+}
+
+h1 {
+    color: var(--white);
+}
+
+h2 {
+    color: var(--darkgreen)
 }
 
 nav ul {
@@ -15,13 +30,17 @@ nav ul {
 }
 
 nav a {
-    color: orchid;
+    color: var(--pink);
     font-weight: lighter;
     text-decoration: none;
 }
 
 nav a:hover {
-    color: darkmagenta;
+    color: var(--darkpink);
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 @media screen and (max-width: 768px) {
@@ -33,4 +52,8 @@ nav a:hover {
 
 section {
     padding-right: 1;
+}
+
+footer {
+    background-color: var(--green);
 }
