@@ -4,6 +4,7 @@
     --darkpink: darkmagenta;
     --white: #fff;
     --darkgreen: rgb(62, 128, 0);
+    --grey: gray;
 } 
 
 header {
@@ -12,6 +13,7 @@ header {
     align-items: center;
     background-color: var(--green);
     padding: 1%;
+    margin: 0 auto;
 }
 
 h1 {
@@ -22,11 +24,16 @@ h2 {
     color: var(--darkgreen)
 }
 
+h3 {
+    color: var(--grey)
+}
+
 nav ul {
     display: flex-end;
     justify-content: space-between;
     min-width: 300%;
     text-decoration: none;
+    list-style-type: none;
 }
 
 nav a {
