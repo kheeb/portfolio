@@ -25,7 +25,7 @@ h2 {
 }
 
 h3 {
-    color: var(--gray)
+    color: var(--grey)
 }
 
 nav ul {
@@ -48,6 +48,24 @@ nav a:hover {
 
 html {
     scroll-behavior: smooth;
+}
+
+img {
+    display: flex center;
+    max-width: 500px;
+    size-adjust: auto;
+}
+
+.app {
+    flex-wrap: center;
+    color: --grey;
+}
+
+.app:hover {
+    position: relative;
+    height: auto;
+    width: 15%;
+    display: block;
 }
 
 @media screen and (max-width: 768px) {
