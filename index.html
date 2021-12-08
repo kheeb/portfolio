@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">]
     <title> k a r a </title>
-  <link rel="stylesheet" href="./assets/css/reset.css" />
   <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 
@@ -13,43 +12,42 @@
     <h1>kara heeb</h1>
     <nav>
       <ul>
-        <li> <a href="#">About Me</a></li>
-        <li> <a href="#">My Work</a></li>
+        <li> <a href="#AboutMe">About Me</a></li>
+        <li> <a href="#MyWork">My Work</a></li>
         <li> <a href="#contact">Contact Me</a></li>
       </ul>
     </nav>
   </header>
 
-  <main>
+  <main class="scrolling-box">
     <h2>Hello!</h2>
 
     <figure>
       <img src="./assets/images/image-1.png" alt="Graphic with Coming Soon text">
-      <figcaption class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</figcaption>
+      <figcaption class="caption">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</figcaption>
     </figure>
     
-    <section id="conttact">
-      <h2 class="text-center">Contact Me</h2>
-      <form>
-        <ul>
-          <li>
-            <label class="text-right" for="name">Name:</label>
-            <input type="text" id="name" name="user-name">
-          </li>
-          <li>
-            <label class="text-right" for="email">Email:</label>
-            <input type="text" id="email" name="user-email">
-          </li>
-        </ul>
-        <div class="text-center">
-          <button type="submit">SEND</button>
-        </div>
-      </form>
+    <section id="AboutMe">
+      <h2>About Me:</h2>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus ut dolorum voluptatibus. Libero illum accusamus simili</p>
+    </section>
+
+    <section id="MyWork"> 
+      <h2>My Work</h2>
+      
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <ul>
+        <li>email: karaheeb@gmail.com</li>
+        <li>phone: 888-888-8888</li>
+      </ul>
     </section>
   </main>
 
   <footer class="text-center">
-    © 2021 My New Website Productions 
+    © 2021 Kara Heeb
   </footer>
     
 </body>

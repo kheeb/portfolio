@@ -1,0 +1,36 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: darkseagreen;
+    padding: 1%;
+    color: #fff;
+}
+
+nav ul {
+    display: flex-end;
+    justify-content: space-between;
+    min-width: 300%;
+    text-decoration: none;
+}
+
+nav a {
+    color: orchid;
+    font-weight: lighter;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: darkmagenta;
+}
+
+@media screen and (max-width: 768px) {
+    header,
+    main {
+        flex-direction: column;
+    }
+}
+
+section {
+    padding-right: 1;
+}
