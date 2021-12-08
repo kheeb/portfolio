@@ -1,3 +1,4 @@
+/* establishes color theme */
 :root {
     --green: darkseagreen;
     --pink: orchid;
@@ -7,6 +8,7 @@
     --grey: gray;
 } 
 
+/* top of page */
 header {
     display: flex;
     justify-content: space-between;
@@ -16,18 +18,27 @@ header {
     margin: 0 auto;
 }
 
+/* name */
 h1 {
     color: var(--white);
 }
 
+/* subtitles */
 h2 {
     color: var(--darkgreen)
 }
 
+/* project names */
 h3 {
     color: var(--grey)
 }
 
+/* quietly get in touch */
+h4 {
+    color: var(--darkpink)
+}
+
+/* navigation set up */
 nav ul {
     display: flex-end;
     justify-content: space-between;
@@ -36,20 +47,24 @@ nav ul {
     list-style-type: none;
 }
 
+/* navigation links */
 nav a {
     color: var(--pink);
     font-weight: lighter;
     text-decoration: none;
 }
 
+/* color change when links are hovered */
 nav a:hover {
     color: var(--darkpink);
 }
 
+/* rolls to section smoothly */
 html {
     scroll-behavior: smooth;
 }
 
+/* photo of me */
 img {
     position: relative;
     display: flex center;
@@ -57,6 +72,7 @@ img {
     size-adjust: auto;
 }
 
+/* individual projects */
 .app {
     display: flex;
     flex-direction: row;
@@ -69,10 +85,12 @@ img {
     border-width: 2px;
     color: --grey;
 }
+/* keep paragraph text wrapped */
 #aboutme {
     display: flex wrap;
 }
 
+/* project icons */
 .thumbnail {
     height: 14vh;
     width: auto;
@@ -81,6 +99,7 @@ img {
     display: flex;
 }
 
+/* enlarge icon when hovered */
 .thumbnail:hover {
     position: relative;
     height: 18vh;
@@ -88,6 +107,7 @@ img {
     display: block;
 }
 
+/* maintain responsive resizing */
 @media screen and (max-width: 768px) {
     header,
     main {
@@ -95,10 +115,12 @@ img {
     }
 }
 
+/* pad section over */
 section {
     padding-right: 1;
 }
 
+/* bar color on bottom of site */
 footer {
     background-color: var(--green);
 }
