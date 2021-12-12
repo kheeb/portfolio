@@ -5,7 +5,8 @@
     I learned how to apply IDs, create links within images, and had the chance to practice CSS skills
     like hover, flexbox, and root variables.
 # screenshot
-   
+   ![Screen Shot 2021-12-08 at 2 38 34 AM](https://user-images.githubusercontent.com/93744725/145731701-7daa5dff-d7cd-44ce-82fc-3dede7b54504.png)
+
 
 # link
     https://github.com/kheeb/portfolio.git
