@@ -18,7 +18,7 @@ No installation required, just visit the link listed below!
 https://kheeb.github.io/portfolio/
 
 ## Demo
-
+![portfolio gif](./assets/images/portfolioDemo.gif)
   
 ## License
 MIT is the chosen license for this project.
