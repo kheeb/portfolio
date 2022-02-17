@@ -3,10 +3,17 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">]
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title> k a r a </title>
-  <link rel="stylesheet" href="./assets/css/style.css" />
-  <link rel="images" href=".assets/images" />
+
+      <!-- materialize + icons + style.css + images -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link rel="stylesheet" href="./assets/css/style.css">
+      <link rel="images" href="./assets/images/">
+
+
 </head>
 
 <body>
@@ -21,61 +28,195 @@
     </nav>
   </header>
 
-  <main class="">
-    <h2>Hello!</h2>
+  <main>
 
-    <figure>
-      <img src="./assets/images/Kara-7YB.jpg" alt="Headshot">
-      <figcaption class="caption">Welcome to my corner of the web!</figcaption>
-    </figure>
-
-    <section id="AboutMe">
-      <h2>About Me:</h2>
-      <p> I am newly entering the field of web development after graduating with a degree in theatre from Temple
-        University during these unprecedented times.
-        My early years were spent in southeast Missouri before relocating to the east coast for college.
-        Currently I am a proud resident of Philadelphia, Pennsylvania, where I live with my cat, Oliver.
-        I am interested in plant-based eating, theatre arts, child development, music, classic movies, coffee, board
-        games, and the TikTok algorithim. </p>
-    </section>
-
-    <section id="MyWork">
-      <h2>My Work:</h2>
-      <div class="projects">
-        <section class="app">
-          <h3>Resume</h3>
-          <a href="https://drive.google.com/file/d/1hSFhm47RucjBNxtPBZisRaR7jhlI5DiM/view?usp=sharing">
-            <img src="assets/images/screenshotResume.png" alt="Resume" target="_blank" rel="noreferrer noopener" class="thumbnail">
-          </a>
-        </section>
-        <section class="app">
-          <h3>Future Project</h3>
-          <a href="https://drive.google.com/file/d/1hSFhm47RucjBNxtPBZisRaR7jhlI5DiM/view?usp=sharing">
-            <img src="assets/images/placeholderImage.png" alt="Future Project" target="_blank" rel="noreferrer noopener" class="thumbnail">
-          </a>
-        </section>
-        <section class="app">
-          <h3>Future Project</h3>
-          <a href="https://drive.google.com/file/d/1hSFhm47RucjBNxtPBZisRaR7jhlI5DiM/view?usp=sharing">
-            <img src="assets/images/placeholderImage.png" alt="Future Project" target="_blank" rel="noreferrer noopener" class="thumbnail">
-          </a>
-        </section>
+      <div class="parallax-container">
+        <div class="parallax"><img src="./assets/images/pexels-pixabay-531767.jpeg"></div>
       </div>
 
-    </section>
+      <section id="AboutMe">
+        <div class="row container">
+          <h2 class="header">Hello there</h2>
+          <p class="grey-text text-darken-3 lighten-3">
+            Welcome! My name is Kara Heeb, and I am a full stack developer currently completing UPenn's coding bootcamp.
+            <br>
+            <br>
+            At the moment I reside in Philadelphia, Pennsylvania, where I live with my cat, Oliver.
+            I am interested in plant-based eating, theatre arts, child development, music, classic movies, coffee, board
+            games, and the TikTok algorithim.
+            <br>
+            <br>
+            Check out my resume and portfolio material below! 
+          </p>
+        </div>
+      </section>
 
-    <section id="contact">
-      <h4>Want To Get In Touch?</h4>
-      <ul>
-        <li>email: karaheeb@gmail.com</li>
-        <li>phone: 888-888-8888</li>
-      </ul>
-    </section>
+      <div class="parallax-container">
+        <div class="parallax"><img src="./assets/images/sunglassesMe.png"></div>
+      </div>
+
+        <section id="MyWork">
+          <div class="container">
+            <div class="row">
+
+              <div class='row'>
+                <h3>My Work</h3>
+                <p> Here are some of my favorite projects!</p>
+              </div>
+
+              <div class="col s12 m4 l4">
+                <div class="card">
+                  <div class="card-image">
+                    <img src="assets/images/can-I-watch-it-screenshot.png">
+                    
+                  </div>
+                  <div class="card-content">
+                    <span class="card-title">Can I Watch It?</span>
+                    <p>This app was made to simplify searching through various subscription services to find where to stream the movie you want by leveraging APIs.</p>
+                  </div>
+                  <div class="card-action">
+                    <a href="https://kheeb.github.io/can-I-watch-it/">Site</a>
+                    <a href="https://github.com/kheeb/can-I-watch-it">Repository</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col s12 m4 l4">
+                <div class="card">
+                  
+                  <div class="card-image">
+                    <img src="assets/images/dayPlanner-screenshot.png">
+                  </div>
+                  <div class="card-content">
+                    <span class="card-title">Day Planner</span>
+                    <p>This digital agenda uses localStorage to save user's itinerary items in color coded time blocks.</p>
+                  </div>
+                  <div class="card-action">
+                    <a href="https://kheeb.github.io/dayPlanner/">Site</a>
+                    <a href="https://github.com/kheeb/dayPlanner">Repository</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col s12 m4 l4">
+                <div class="card">
+                  <div class="card-image">
+                    <img src="assets/images/teamBuilder-screenshot.png">
+                    
+                  </div>
+                  <div class="card-content">
+                    <span class="card-title">Team Builder</span>
+                    <p>In this app, team information can be easily entered through npm inquirer prompts within the terminal to dynamically create a centralized web page of contact information.</p>
+                  </div>
+                  <div class="card-action">
+                    <a href="https://github.com/kheeb/teamBuilder">Repository</a>
+                  </div>
+                </div>
+              </div>
+
+
+
+
+            </div>
+          </div>
+        </section>
+
+      <div class="parallax-container">
+        <div class="parallax"><img src="./assets/images/pexels-dids-3527786.jpg"></div>
+      </div>
+
+      <section id="contact">
+        <div class="row container">
+          <h2 class="header">If you want to stay in touch...</h2>
+              
+            <div class='col s6 m6 l6'>
+              <div class='card'>
+                <div class="card-image">
+                  <img src="assets/images/pexels-enric-cruz-lópez-7444978.jpg">
+                  <span class="card-title"><i class="large material-icons">contact_mail</i></span>
+                </div>
+                <div class="card-content">
+                  <p><a href = "mailto: karaheeb@gmail.com">send me an email via this link</a></p>
+                </div>
+              </div>
+            </div>
+
+            <div class='col s6 m6 l6'>
+              <div class='card'>
+                <div class="card-image">
+                  <img src="assets/images/pexels-enric-cruz-lópez-7444978.jpg">
+                  <span class="card-title"><i class="large material-icons">contact_phone</i></span>
+                </div>
+                <div class="card-content">
+                  <p>reach me by cell: (573)-275-7997</p>
+                </div>
+              </div>
+            </div>
+
+              <div class="col s12 m4 l4">
+                <div class="card">
+                  <div class="card-image">
+                    <img src="assets/images/pexels-enric-cruz-lópez-7444978.jpg">
+                    <span class="card-title">Resume</span>
+                  </div>
+                  <div class="card-content">
+                    <p>View my resume in the PDF linked below!</p>
+                  </div>
+                  <div class="card-action">
+                    <a href="./assets/images/web-dev-resume-2022.pdf">My Resume PDF</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col s12 m4 l4">
+                <div class="card">
+                  <div class="card-image">
+                    <img src="assets/images/pexels-enric-cruz-lópez-7444978.jpg">
+                    <span class="card-title">GitHub</span>
+                  </div>
+                  <div class="card-content">
+                    <p> Take a look at my other code repositories on Github.</p>
+                  </div>
+                  <div class="card-action">
+                    <a href="https://github.com/kheeb">My Github Profile</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col s12 m4 l4">
+                <div class="card">
+                  <div class="card-image">
+                    <img src="assets/images/pexels-enric-cruz-lópez-7444978.jpg">
+                    <span class="card-title">LinkedIn</span>
+                  </div>
+                  <div class="card-content">
+                    <p>View my profile here to connect with me via LinkedIn!</p>
+                  </div>
+                  <div class="card-action">
+                    <a href="www.linkedin.com/in/kara-heeb">My LinkedIn Profile</a>
+                  </div>
+                </div>
+              </div>
+
+
+        </div>
+      </section>
+      
+
+    
   </main>
 
-  <footer class="text-center">
-    © 2021 Kara Heeb
-  </footer>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src='./assets/js/script.js'></script>
+  <!-- Insert function to enable parallax -->
+<script type="text/javascript">
+  $(document).ready(function(){
+$('.parallax').parallax();
+});
+</script>
+
 
 </body>
 
